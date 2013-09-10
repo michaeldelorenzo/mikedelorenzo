@@ -1,44 +1,86 @@
 <html>
 <head>
 	<title>Michael De Lorenzo - CTO at CMP.LY, Inc.</title>
-	<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://fortawesome.github.com/Font-Awesome/assets/css/font-awesome.css">
+	<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.min.css">
 <style>
-body{
-	background:#000000 url(images/me.png);
- 	background-size:contain;
-	background-repeat:no-repeat;
-	background-position:right top;
-	position:relative;
-	
-	font-family:"Arimo",sans-serif;
-}
-h1{color:#cccccc;font-size:3.0em;letter-spacing:0.2;margin:0;}
-h2{color:#666666;font-size:1.2em;margin:0;}
-.about-me{position:fixed;left:20px;bottom:25px;}
-.social i{color:#666666;font-size:2.0em;}
-a,a:hover{text-decoration:none;}
-a:hover i{color:#ececec;}
-a{margin-right:10px;}
-.contact{color:#777777;font-size:0.8em;}
-.contact i{margin-right:10px;}
+    body{
+        background:#000000 url(images/me.png);
+        background-size:contain;
+        background-repeat:no-repeat;
+        background-position:right top;
+        position:relative;
+
+        font-family:"Arimo",sans-serif;
+    }
+    h1{color:#cccccc;font-size:3.0em;letter-spacing:0.2;margin:0;}
+    h2{color:#666666;font-size:1.2em;margin:0;}
+    h3{color:#666666;font-size:1.0em;margin:0 0 10px;}
+    h4{color:#888888;font-size:0.9em;margin:0;}
+    .about-me{position:fixed;left:20px;bottom:25px;}
+    .social i{color:#666666;font-size:2.0em;}
+    a,a:visited,a:hover{color:#ececec;text-decoration:none;}
+    a:hover i{color:#ececec;}
+    a{margin-right:10px;}
+    .contact{color:#777777;font-size:0.8em;}
+    .contact i{margin-right:10px;}
+    hr{border-color:#333333;margin:20px auto;width:90%;}
+    #oss-projects{
+        font-family:"Arimo",sans-serif;
+        padding-left:4px;
+
+        max-height:250px;
+    }
+    #oss-projects h4 i{margin-right:4px;}
+    #oss-projects p a{border-bottom:1px dashed #777777;margin:0;}
+    #oss-projects h4 small.muted{font-size:0.75em;color:#333333;}
+    #oss-projects p{
+        margin-top:4px;font-size:0.8em;line-height:1.1em;color:#666666;
+    }
 </style>
 </head>
 <body>
 	<div class="about-me">
-	<h1>Michael De Lorenzo</h1>
-	<h2>CTO at CMP.LY, Inc.</h2>
-	<p class="social">
-		<a href="https://twitter.com/mikedelorenzo" target="_blank">
-			<i class="icon-twitter"></i>
-		</a>
-		<a href="https://github.com/michaeldelorenzo" target="_blank">
-			<i class="icon-github-alt"></i>
-		</a>
-		<a href="http://www.linkedin.com/in/rmichaeldelorenzo/" target="_blank">
-			<i class="icon-linkedin"></i>
-		</a>
-	</p>
+        <h1>Michael De Lorenzo</h1>
+        <h2>CTO at CMP.LY, Inc.</h2>
+        <p class="social">
+            <a href="https://twitter.com/mikedelorenzo" target="_blank">
+                <i class="icon-twitter"></i>
+            </a>
+            <a href="https://github.com/michaeldelorenzo" target="_blank">
+                <i class="icon-github-alt"></i>
+            </a>
+            <a href="http://www.linkedin.com/in/rmichaeldelorenzo/" target="_blank">
+                <i class="icon-linkedin"></i>
+            </a>
+            <a href="http://bit.ly/1e0XfIm" target="_blank" title="Download my resume.">
+                <i class="icon-file-text"></i>
+            </a>
+        </p>
+        <hr />
+        <h3>Open Source Projects</h3>
+        <div id="oss-projects">
+
+            <h4><i class="icon-github-sign"></i><a href="https://github.com/michaeldelorenzo/keyword-extractor" target="_blank">Keyword Extractor</a> <small class="muted">(NPM Package)</small></h4>
+            <p>
+                <small>Module for creating a keyword array from a string and excluding stop words.</small>
+            </p>
+
+            <h4><i class="icon-github-sign"></i><a href="https://github.com/michaeldelorenzo/omniauth-bitly" target="_blank">Omniauth Strategy for Bit.ly</a> <small class="muted">(Ruby gem)</small></h4>
+            <p>
+                <small>An Omniauth strategy for bit.ly.</small>
+            </p>
+
+            <h4><i class="icon-github-sign"></i><a href="https://github.com/michaeldelorenzo/omniauth-youtube" target="_blank">Omniauth Strategy for YouTube</a> <small class="muted">(Ruby gem)</small></h4>
+            <p>
+                <small>An updated Omniauth Strategy for YouTube.</small>
+            </p>
+
+            <h4><i class="icon-github-sign"></i><a href="https://github.com/michaeldelorenzo/viralheat-sentiment" target="_blank">Viralheat Sentiment Analysis</a> <small class="muted">(NPM Package)</small></h4>
+            <p>
+                <small>Module for accessing the Viralheat Sentiment API.</small>
+            </p>
+        </div>
 	</div>
 	<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-417598-7']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>
 </body>
